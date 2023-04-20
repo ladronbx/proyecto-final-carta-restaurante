@@ -11,7 +11,7 @@ body {
     text-align: center;
     background-color: black;
     color: aliceblue;
-    font-size: xx-large;
+    font-size: large;
     position: fixed;
     top: 0;
     left: 0;
@@ -23,12 +23,11 @@ h1 {
     font-family:'Chalkduster','Dancing Script','Courier New', Courier, monospace;
     color:rgb(206, 120, 0);
     padding-top:0%;
-    padding-bottom: 0%;
+    padding-bottom: 1%;
 }
 #menu li {
     display:inline;
-    padding-left:3%;
-    padding-right:2%;
+    padding: 0% 9% 0% 5%;
 }
 a {
     font-family: 'Marker Felt','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -41,34 +40,46 @@ a:hover {
     font-family: 'Marker Felt','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-#arroba{
-    color:rgb(206, 120, 0);
-    font-family: 'Marker Felt','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
 
-p {
-    font-family: 'Marker Felt','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: whitesmoke;
-    font-size: larger;
-}
+
 
 footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center ;
     background-color: black;
-    color: aliceblue;
-    font-size: large;
     position: fixed;
     bottom: 0;
-    text-align: center;
     left: 0;
     right: 0;
-}
+  }
+  
 
+#reserva{
+    font-family: 'Marker Felt','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: whitesmoke;
+    font-size: large;
+    padding-right:20%;
+
+}
+#siguenos{
+    font-family: 'Marker Felt','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: whitesmoke;
+    font-size: large;
+    padding-right: 1%;
+    padding-bottom: 0%;
+
+
+
+}
+#arroba{
+    font-size: large;
+    color:rgb(206, 120, 0);
+    font-family: 'Marker Felt','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-right: 1%;
+}
 img {
-    width: 50px;
-    height: 50px;
-}
-
-
-.rrss {
-    display: inline-block;
+    padding-top: 45%;
+    width: 25px;
+    height: 25px;
 }
