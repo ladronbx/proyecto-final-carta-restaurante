@@ -9,7 +9,7 @@ Proyecto final de la formación previa al Bootcamp Full Stack Developer de la ac
 
 ## Descripción
 * Diseño de una pagina web con temática de restauracion. 
-* Tratando de realizar una web responsive, que se adapte tanto a pantalla de PC como a pantalla de smartphone. 
+* Tratando de realizar una web responsive, que se adapte tanto a pantalla de PC como a pantalla tablet y smartphone. 
 * Diseño inspirado en el minimalismo, obteniendo ideas de la famosa cadena de restaurante The Fitzerald.
 
 ## Vista previa Home
@@ -23,17 +23,18 @@ Proyecto final de la formación previa al Bootcamp Full Stack Developer de la ac
 
 
 ## Diseño responsive
-* Al seleccionar cualquier elemento del menú **TAPAS**, **CREPES**, **BEBIDAS** o **POSTRES** se puede observar que en vista de escritorio los productos se encontrarán alineados en filas de 4 elementos. Mientras que si vamos disminuyendo el tamaño del display, observamos que se apilan en filas de dos o incluso de uno en uno cuando se observa desde un smartphone. 
-
-/* Insertar imágenes */
+* Al seleccionar cualquier elemento del menú **TAPAS**, **CREPES**, **BEBIDAS** o **POSTRES** se puede observar que en vista de escritorio los productos se encontrarán alineados en filas de tres en tres elementos. Mientras que si vamos disminuyendo el tamaño del display, observamos que se apilan en filas de dos en vista tablet o incluso de uno en uno cuando se observa desde un smartphone. 
+#### Vista escritorio
+![Captura de pantalla](img/tres.png)
+#### Vista tablet horizontal
+![Captura de pantalla](img/dos.png)
+#### Vista smartphone vertical
+![Captura de pantalla](img/uno.png)
 
 * En el footer se oberva, de forma fija también al realizar scroll, en la izquierda el número de teléfono ficticio del establecimiento para poder **reservar**. Y a la derecha información de **Redes Sociales** para poder contactar. Los iconos de las páginas webs al ser ficticios al clickar no lleva a ninguna web externa.
 
 ![Captura de pantalla](img/footer-fijo.png)
 
-
-/* Insertar imágenes */
-/* Insertar imágenes */
 
 
 ## Desarrollado con :
