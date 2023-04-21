@@ -21,6 +21,8 @@ Proyecto final de la formación previa al Bootcamp Full Stack Developer de la ac
 ## Diseño responsive
 * Al seleccionar cualquier elemento del menú **TAPAS**, **CREPES**, **BEBIDAS** o **POSTRES**, se puede observar que en vista de escritorio los productos se encontrarán alineados en filas de 4 elementos. Mientras que si vamos disminuyendo el tamaño del display, observamos que se apilan en filas de dos o incluso de uno en uno cuando se observa desde un smartphone. 
 
+* En el footer se oberva, de forma fija también al realizar scroll, en la izquierda el número de teléfono ficticio del establecimiento para poder **reservar**. Y a la derecha información de **Redes Sociales** para poder contactar. Los iconos de las páginas webs al ser ficticios al clickar no lleva a ninguna web externa.
+
 /* Insertar imágenes */
 /* Insertar imágenes */
 /* Insertar imágenes */
