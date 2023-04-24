@@ -3,94 +3,32 @@ body {
     background-image: url("img/back-home.png");
     background-attachment: fixed;
     background-size: cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 
-.imgenes-body {
-    max-width: 100%;
-    height: auto;
-}
-
-.cabecera {
-
+.arriba {
     text-align: center;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background-color: black;
+}
+
+.abajo {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
     background-color: black;
     color: aliceblue;
-    font-size: large;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-}
-
-h1 {
-    margin-top: 0%;
-    font-family: 'Chalkduster', 'Dancing Script', 'Courier New', Courier, monospace;
-    color: rgb(206, 120, 0);
-    padding-top: 0%;
-    padding-bottom: 1%;
-}
-
-#menu li {
-    display: inline;
-    padding: 0% 8% 0% 5%;
-}
-
-a {
-    font-family: 'Marker Felt', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: white;
-    text-decoration: none;
-}
-
-a:hover {
-    color: rgb(206, 120, 0);
-    font-family: 'Marker Felt', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-
-
-
-footer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    background-color: black;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-}
-
-
-#reserva {
-    font-family: 'Marker Felt', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: whitesmoke;
-    font-size: large;
-    padding-right: 20%;
-
-}
-
-#siguenos {
-    font-family: 'Marker Felt', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: whitesmoke;
-    font-size: large;
-    padding-right: 1%;
-    padding-bottom: 0%;
-}
-
-#arroba {
-    font-size: large;
-    color: rgb(206, 120, 0);
-    font-family: 'Marker Felt', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding-right: 1%;
+    font-size: small;
 }
 
 img {
-    padding-top: 45%;
-    width: 25px;
-    height: 25px;
+    width: 30px;
+}
+.footer{
+    border: 2px solid rgb(27, 155, 234);
+}
+.row {
+    display: flex;
 }
