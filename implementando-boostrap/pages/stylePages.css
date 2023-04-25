@@ -11,7 +11,7 @@
         margin-top: 30%;
         margin-bottom: 30%;
     }
-
+}
     @media only screen and (max-width: 320px) {
         .medio{
             margin-top: 70%;

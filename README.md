@@ -40,7 +40,6 @@ Proyecto final de la formación previa al Bootcamp Full Stack Developer de la ac
 ## Desarrollado con :
 * [HTML5](https://lenguajehtml.com/html/)
 * [CSS3](https://desarrolloweb.com/manuales/css3.html)
-* [Bootstrap](https://getbootstrap.com/)
 
 ## Licencia y Copyright
 * Todas las imágenes de alimentos y bebidas son sin licencia de copyright.
