@@ -9,26 +9,108 @@ body {
 .arriba {
     text-align: center;
     position: fixed;
+    z-index: 1;
     top: 0px;
     width: 100%;
+    padding-bottom: 1%;
+    text-align: center;
     background-color: black;
 }
+/*Eliminar el estilo del enlace*/
+.arriba .container-fluid .logo a{
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 0%;
+    font-family: 'Chalkduster', 'Dancing Script', 'Courier New', Courier, monospace;
+    color: rgb(206, 120, 0);
+    padding-top: 0%;
+    padding-bottom: 1%;
+}
+
+
+.col a {
+    font-family: 'Marker Felt', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+.col a:hover {
+    color: rgb(206, 120, 0);
+    font-family: 'Marker Felt', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+}
+
+.medio{
+    margin-top: 8%;
+    margin-bottom: 20%;
+    text-align: center;
+    width: 100%;
+    font-family: 'Marker Felt', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    color: whitesmoke;
+    padding: 2%;
+
+}
+
+.medio img{
+    text-align: center;
+    padding-top: 4%;
+    width: 60%;
+    height: 35%;
+
+}
+
+
 
 .abajo {
     position: fixed;
     bottom: 0px;
-    width: 100%;
     background-color: black;
-    color: aliceblue;
+    width: 100%;
+    font-family: 'Marker Felt', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: small;
+    color: whitesmoke;
 }
 
 img {
+    padding: 0%;
+    margin: 0%;
     width: 30px;
 }
-.footer{
-    border: 2px solid rgb(27, 155, 234);
+
+#reserva {
+    padding-top: 2%;
 }
-.row {
-    display: flex;
+
+.col-5 {
+    text-align: center;
 }
+
+#siguenos {
+    float: left;
+    padding: 2% 0% 0% 2%;
+    margin: 0%;
+}
+
+#arroba {
+    padding: 2% 0% 0% 2%;
+    margin: 0%;
+    float: left;
+    color: rgb(206, 120, 0);
+}
+
+#logos {
+    float: left;
+    padding: 0%;
+    margin: 2% 0% 1% 0%;
+}
+
+
+
+
+
+
+
